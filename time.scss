@@ -1,0 +1,95 @@
+#time {
+    width: 100%;
+    padding: 0 .4rem/* 30/75 */
+    ;
+    .calendar {
+        .calendar-top {
+            display: flex;
+            justify-content: space-between;
+            font-size: .373333rem/* 28/75 */
+            ;
+            line-height: 1.2rem/* 90/75 */
+            ;
+            border-bottom: 1px solid #e5e5e5;
+            i {
+                display: inline-block;
+                color: #A3A3A3;
+            }
+            .previous {
+                i {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .week {
+            display: flex;
+            margin-top: .133333rem/* 10/75 */
+            ;
+            li {
+                width: 1.306667rem/* 98/75 */
+                ;
+                font-size: .373333rem/* 28/75 */
+                ;
+                line-height: 1.173333rem/* 88/75 */
+                ;
+                text-align: center;
+                color: #A1A1A1;
+            }
+        }
+        .days {
+            width: 100%;
+            display: flex;
+            display: -webkit-flex;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            .days-item {
+                width: 1.306667rem/* 98/75 */
+                ;
+                display: flex;
+                justify-content: center;
+                .num {
+                    text-align: center;
+                    font-size: .346667rem/* 26/75 */
+                    ;
+                    color: #A3A3A3;
+                    width: .8rem/* 60/75 */
+                    ;
+                    height: .8rem;
+                    line-height: .8rem/* 60/75 */
+                    ;
+                    margin-bottom: .213333rem/* 16/75 */
+                    ;
+                }
+                .currentMonth {
+                    color: #000;
+                }
+                .currentDay {
+                    border: 1px solid #000;
+                    border-radius: 50%;
+                }
+                .active {
+                    border-radius: 50%;
+                    background: #000;
+                    color: #fff;
+                }
+            }
+        }
+        .calendar-bottom {
+            display: flex;
+            justify-content: center;
+            p {
+                font-size: .373333rem/* 28/75 */
+                ;
+                line-height: .666667rem/* 50/75 */
+                ;
+                padding: 0 .666667rem/* 50/75 */
+                ;
+                margin: .533333rem/* 40/75 */
+                0;
+                border: 1px solid #000;
+                border-radius: .133333rem/* 10/75 */
+                ;
+            }
+        }
+    }
+}
